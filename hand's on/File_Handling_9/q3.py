@@ -1,0 +1,6 @@
+fd = open('test.txt', 'r')
+fd2 = open('test3.txt', 'w')
+data = fd.read()
+fd2.write(data)
+fd.close()
+fd2.close()
